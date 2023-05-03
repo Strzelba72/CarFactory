@@ -1,5 +1,6 @@
 public class Main {
     static public void main(String[] args) {
+        //create ne factory
         Application app=new Application(new SkodaFactory());
         app.createCar();
         app.car.equipmentPacket();
